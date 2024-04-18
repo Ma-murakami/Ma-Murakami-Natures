@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 
 # APIキー設定
 GMAPS_API_KEY = 'AIzaSyDgquYvkDL3AD1zUBlqAKDMuoZzgwo3qDI'
-OPENAI_API_KEY = 'sk-proj-l7ksbFAQaerwxlmjSnoWT3BlbkFJSjR8jW94r20yUR3MesMs'
+OPENAI_API_KEY = 'sk-proj-cUlxEMlyvWosujHDgib1T3BlbkFJfCgiLk7bAs6MCJyyTJ7m'
 WEATHER_API_KEY = 'bfa5ee7d3df2b9762e805c0d95ea64c8'
 
 # APIクライアントの初期化
