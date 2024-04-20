@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 
 # APIキー設定
 GMAPS_API_KEY = 'AIzaSyDgquYvkDL3AD1zUBlqAKDMuoZzgwo3qDI'
-OPENAI_API_KEY = 'st.secrets["openai_APIkey"]'
+OPENAI_API_KEY = 'st.secrets[openai_APIkey]'
 WEATHER_API_KEY = 'bfa5ee7d3df2b9762e805c0d95ea64c8'
 
 # APIクライアントの初期化
