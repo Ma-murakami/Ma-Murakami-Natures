@@ -7,12 +7,11 @@ from datetime import datetime, timedelta
 
 # APIキー設定
 GMAPS_API_KEY = 'AIzaSyDgquYvkDL3AD1zUBlqAKDMuoZzgwo3qDI'
-OPENAI_API_KEY = 'st.secrets[openai_APIkey]'
 WEATHER_API_KEY = 'bfa5ee7d3df2b9762e805c0d95ea64c8'
 
 # APIクライアントの初期化
 gmaps = googlemaps.Client(key=GMAPS_API_KEY)
-openai.api_key = OPENAI_API_KEY
+openai.api_key = st.secrets[openai_APIkey]
 
 # 都道府県リスト（例として北海道と山形県）
 prefectures = ["北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県","茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県",
