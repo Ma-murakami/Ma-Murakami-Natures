@@ -42,7 +42,7 @@ def main():
     if show_details:
         # 観光地の候補と説明を取得
         prompt = f"あなたはプロフェッショナルなツアーガイドです。{travel_purpose}向けに{area_query}で訪れるべき{number_of_sites}つの観光地とそれぞれの説明を200文字以内で教えてください。"
-        response = openai.ChatCompletion.create(
+        response = openai.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "system", "content": "You are a professional tour guide."},
                       {"role": "user", "content": prompt}]
